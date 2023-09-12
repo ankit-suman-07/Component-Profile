@@ -1,0 +1,21 @@
+.grid-outer {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.post-grid {
+    /* border: 2px solid black; */
+    width: 310px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    
+}
+
+.grid-box {
+    background-color:  grey;
+    width: 100px;
+    height: 100px;
+}
